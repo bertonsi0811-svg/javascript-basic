@@ -8,6 +8,7 @@
 // --- SCRIVI QUI LA TUA SOLUZIONE ---
 
 function es20(a, b, c) {
+ return Math.min(a,b,c)
   // TODO: scrivi qui la tua soluzione
 }
 
