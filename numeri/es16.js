@@ -13,8 +13,13 @@
 
 function es16() {
   const voti = [7, 8, 6, 9, 8];
+  const somma=7+8+6+9+8;
+  const media=somma / 5;
+  const mediaArrotondata= Math.round(media);
+
+  return {somma, media, mediaArrotondata }
   // TODO: scrivi qui la tua soluzione
 }
-
+s
 // --- NON MODIFICARE SOTTO ---
 export { es16 };
