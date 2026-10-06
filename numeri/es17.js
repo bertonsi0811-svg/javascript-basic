@@ -15,6 +15,9 @@
 
 function es17() {
   const raggio = 5;
+  const circonferenza= 2 * Math.PI * raggio;
+  const area = Math.PI * raggio *raggio;
+  return { circonferenza: circonferenza.toFixed(2), area: area.toFixed(2)}
   // TODO: scrivi qui la tua soluzione
 }
 
