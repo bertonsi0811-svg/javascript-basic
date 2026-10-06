@@ -11,6 +11,19 @@
 // --- SCRIVI QUI LA TUA SOLUZIONE ---
 
 function es23(a, b, operatore) {
+  if (operatore == "+") {
+    return a + b;
+  }
+  if (operatore == "-") {
+    return a - b;
+  }
+  if (operatore == "*") {
+    return a * b;
+  }
+  if (operatore == "/") {
+    return a / b;
+  }
+  
   // TODO: scrivi qui la tua soluzione
 }
 
