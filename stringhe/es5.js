@@ -9,16 +9,19 @@
 // --- SCRIVI QUI LA TUA SOLUZIONE ---
 
 function es5_1() {
+  return "documento.pdf".endsWith(".pdf");
   // 1. Restituisci true se "documento.pdf" termina con ".pdf"
   // TODO: scrivi qui la tua soluzione
 }
 
 function es5_2() {
+   return "ciao".endsWith("o");
   // 2. Restituisci true se "ciao" termina con "o"
   // TODO: scrivi qui la tua soluzione
 }
 
 function es5_3() {
+   return "musica.mp3".endsWith(".wav");
   // 3. Restituisci true se "musica.mp3" termina con ".wav"
   // TODO: scrivi qui la tua soluzione
 }

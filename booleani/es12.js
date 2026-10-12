@@ -12,6 +12,7 @@
 // --- SCRIVI QUI LA TUA SOLUZIONE ---
 
 function es12(ruolo, isLogged) {
+  
   // TODO: scrivi qui la tua soluzione
 }
 

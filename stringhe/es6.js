@@ -10,16 +10,20 @@
 // --- SCRIVI QUI LA TUA SOLUZIONE ---
 
 function es6_1() {
+  return "banana".indexOf("a")
   // 1. Restituisci la posizione della lettera "a" in "banana"
   // TODO: scrivi qui la tua soluzione
 }
 
 function es6_2() {
+  return "Il sole splende".indexOf("sole");
   // 2. Restituisci la posizione della parola "sole" in "Il sole splende"
   // TODO: scrivi qui la tua soluzione
 }
 
 function es6_3(s, parola) {
+
+return s.indexOf(parola)
   // 3. Cerca la parola nella stringa e restituisci il risultato
   // TODO: scrivi qui la tua soluzione
 }

@@ -10,16 +10,19 @@
 // --- SCRIVI QUI LA TUA SOLUZIONE ---
 
 function es3_1() {
+  return "JavaScript".includes("Script");
   // 1. Restituisci true se "JavaScript" contiene "Script"
   // TODO: scrivi qui la tua soluzione
 }
 
 function es3_2() {
+    return "Programmazione".includes("Python");
   // 2. Restituisci true se "Programmazione" contiene "Python"
   // TODO: scrivi qui la tua soluzione
 }
 
 function es3_3(email) {
+    return email.includes("@");
   // 3. Verifica se la mail ricevuta contiene "@"
   // TODO: scrivi qui la tua soluzione
 }
