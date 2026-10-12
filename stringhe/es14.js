@@ -10,16 +10,19 @@
 // --- SCRIVI QUI LA TUA SOLUZIONE ---
 
 function es14_1(s, inizio, fine) {
+  return s.substring(inizio, fine);
   // 1. Estrai la parte della stringa da "inizio" a "fine" con substring
   // TODO: scrivi qui la tua soluzione
 }
 
 function es14_2(s) {
+  return s.substring(0, 5);
   // 2. Restituisci le prime 5 lettere della parola ricevuta
   // TODO: scrivi qui la tua soluzione
 }
 
 function es14_3(s, inizio, fine) {
+  return s.substring(inizio, fine);
   // 3. Usa substring con indici negativi e osserva cosa restituisce
   // TODO: scrivi qui la tua soluzione
 }

@@ -13,6 +13,15 @@
 
 function es15() {
   const email = "   MARIO.ROSSI@GMAIL.COM   ";
+
+  const pulita = email.trim().toLowerCase();
+  const valida = pulita.includes("@");
+
+  return {
+    pulita: pulita,
+    valida: valida
+  };
+
   // TODO: scrivi qui la tua soluzione
 }
 

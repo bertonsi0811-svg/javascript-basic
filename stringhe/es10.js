@@ -21,6 +21,7 @@ function es10_2() {
 }
 
 function es10_3(s) {
+  return s.split(" ");
   // 3. Dividi la frase ricevuta parola per parola (separatore: spazio)
   // TODO: scrivi qui la tua soluzione
 }
