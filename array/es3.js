@@ -11,16 +11,23 @@
 // --- SCRIVI QUI LA TUA SOLUZIONE ---
 
 function es3_1(arr, elemento) {
+  arr.unshift(elemento);
+  return arr;
   // 1. Aggiungi elemento all'inizio di arr e restituisci l'array
   // TODO: scrivi qui la tua soluzione
 }
 
 function es3_2(arr) {
+  arr.shift();
+  return arr;
   // 2. Rimuovi il primo elemento da arr e restituisci l'array modificato
   // TODO: scrivi qui la tua soluzione
 }
 
 function es3_3(arr, elemento) {
+  arr.push(elemento);
+  arr.unshift(elemento);
+  return arr;
   // 3. Aggiungi elemento alla fine (push), poi all'inizio (unshift) e restituisci l'array
   // TODO: scrivi qui la tua soluzione
 }

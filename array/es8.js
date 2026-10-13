@@ -9,16 +9,19 @@
 // --- SCRIVI QUI LA TUA SOLUZIONE ---
 
 function es8_1(arr) {
+  return arr.slice(0,3);
   // 1. Restituisci i primi 3 elementi di arr
   // TODO: scrivi qui la tua soluzione
 }
 
 function es8_2(arr) {
+  return arr.slice(-2);
   // 2. Restituisci gli ultimi 2 elementi di arr (usa indice negativo)
   // TODO: scrivi qui la tua soluzione
 }
 
 function es8_3(arr) {
+  return arr.slice();
   // 3. Restituisci una copia dell'intero array
   // TODO: scrivi qui la tua soluzione
 }

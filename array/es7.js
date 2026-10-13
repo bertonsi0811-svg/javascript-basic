@@ -9,16 +9,19 @@
 // --- SCRIVI QUI LA TUA SOLUZIONE ---
 
 function es7_1(a, b) {
+  return a.concat(b);
   // 1. Unisci gli array a e b in un unico array
   // TODO: scrivi qui la tua soluzione
 }
 
 function es7_2(a, b, c) {
+  return a.concat(b.concat(c));
   // 2. Unisci gli array a, b e c
   // TODO: scrivi qui la tua soluzione
 }
 
 function es7_3(arr, elemento) {
+  return arr.concat(elemento);
   // 3. Aggiungi elemento alla fine di arr usando concat (non push)
   // TODO: scrivi qui la tua soluzione
 }

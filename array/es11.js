@@ -9,6 +9,7 @@
 // --- SCRIVI QUI LA TUA SOLUZIONE ---
 
 function es11_1(arr) {
+  return arr.sort();
   // 1. Ordina arr in ordine alfabetico e restituiscilo
   // TODO: scrivi qui la tua soluzione
 }

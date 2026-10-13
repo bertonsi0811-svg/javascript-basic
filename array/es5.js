@@ -11,16 +11,24 @@
 // --- SCRIVI QUI LA TUA SOLUZIONE ---
 
 function es5_1(arr, elemento) {
+  return arr.indexOf(elemento);
   // 1. Restituisci l'indice di elemento in arr
   // TODO: scrivi qui la tua soluzione
 }
 
 function es5_2(arr, elemento) {
+  return arr.lastIndexOf(elemento);
   // 2. Restituisci l'ultimo indice di elemento in arr
   // TODO: scrivi qui la tua soluzione
 }
 
 function es5_3(arr, elemento) {
+  if (arr.indexOf(elemento) === -1) {
+    return "non trovato";
+  }
+  else {
+    return "trovato";
+  }
   // 3. Se elemento è presente restituisci "trovato", altrimenti "non trovato"
   // Suggerimento: usa indexOf() !== -1
   // TODO: scrivi qui la tua soluzione
@@ -28,3 +36,4 @@ function es5_3(arr, elemento) {
 
 // --- NON MODIFICARE SOTTO ---
 export { es5_1, es5_2, es5_3 };
+

@@ -11,16 +11,23 @@
 // --- SCRIVI QUI LA TUA SOLUZIONE ---
 
 function es2_1(arr, elemento) {
+ arr.push(elemento);
+ return arr;
   // 1. Aggiungi elemento alla fine di arr e restituisci l'array modificato
   // TODO: scrivi qui la tua soluzione
 }
 
 function es2_2(arr) {
-  // 2. Rimuovi l'ultimo elemento da arr e restituisci l'array modificato
+ arr.pop();
+return arr;
+
+ // 2. Rimuovi l'ultimo elemento da arr e restituisci l'array modificato
   // TODO: scrivi qui la tua soluzione
 }
 
 function es2_3(arr, elemento) {
+  arr.unshift(elemento);
+   return arr;
   // 3. Aggiungi elemento all'inizio di arr (usa unshift) e restituisci l'array
   // TODO: scrivi qui la tua soluzione
 }
