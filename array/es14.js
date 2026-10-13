@@ -12,11 +12,13 @@
 // --- SCRIVI QUI LA TUA SOLUZIONE ---
 
 function es14_1(arr) {
+  return arr.find(n => n > 10);
   // 1. Trova il primo numero maggiore di 10
   // TODO: scrivi qui la tua soluzione
 }
 
 function es14_2(arr) {
+  return arr.
   // 2. Trova l'indice della prima stringa che inizia con "A"
   // TODO: scrivi qui la tua soluzione
 }

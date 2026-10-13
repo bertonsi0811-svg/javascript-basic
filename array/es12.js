@@ -9,16 +9,18 @@
 // --- SCRIVI QUI LA TUA SOLUZIONE ---
 
 function es12_1(arr) {
+  return arr.map(n => n * 2);
   // 1. Restituisci un nuovo array con ogni numero moltiplicato per 2
   // TODO: scrivi qui la tua soluzione
 }
-
 function es12_2(arr) {
+  return arr.map(n => n.toUpperCase());
   // 2. Restituisci un nuovo array con ogni stringa in maiuscolo
   // TODO: scrivi qui la tua soluzione
 }
 
 function es12_3(arr) {
+  return arr.map(n => n.length);
   // 3. Restituisci un nuovo array con la lunghezza di ogni stringa
   // TODO: scrivi qui la tua soluzione
 }

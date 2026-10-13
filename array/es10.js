@@ -1,29 +1,28 @@
 /*
-  ESERCIZIO 10 - reverse()
+  ESERCIZIO 10 - split()
 
-  .reverse() inverte l'ordine degli elementi di un array.
+  Divide una stringa in un array.
 
-  Sintassi:  array.reverse()
+  Sintassi:  stringa.split(separatore)
 */
 
 // --- SCRIVI QUI LA TUA SOLUZIONE ---
 
-function es10_1(arr) {
-  return arr.reverse();
-  // 1. Inverti l'ordine di arr e restituisci l'array
+function es10_1(s) {
+  return s.split(",");
+  // 1. Dividi la stringa ricevuta (nomi separati da virgole) in un array
   // TODO: scrivi qui la tua soluzione
 }
 
 function es10_2() {
-  return [1, 2, 3].reverse()
-  // 2. Inverti [1, 2, 3] e restituisci il risultato
+  return "12/06/2026".split("/");
+  // 2. Dividi la data "12/06/2026" in ["12", "06", "2026"]
   // TODO: scrivi qui la tua soluzione
 }
 
-function es10_3(arr) {
-  return 
-  // 3. Restituisci true se l'array è uguale al suo inverso (palindromo)
-  // Suggerimento: crea una copia con slice(), invertila, confronta
+function es10_3(s) {
+  return s.split(" ");
+  // 3. Dividi la frase ricevuta parola per parola (separatore: spazio)
   // TODO: scrivi qui la tua soluzione
 }
 

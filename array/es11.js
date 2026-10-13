@@ -1,27 +1,28 @@
 /*
-  ESERCIZIO 11 - sort()
+  ESERCIZIO 11 - trim()
 
-  .sort() ordina gli elementi di un array (come stringhe di default).
+  Elimina gli spazi all'inizio e alla fine della stringa.
 
-  Sintassi:  array.sort()
+  Sintassi:  stringa.trim()
 */
 
 // --- SCRIVI QUI LA TUA SOLUZIONE ---
 
-function es11_1(arr) {
-  return arr.sort();
-  // 1. Ordina arr in ordine alfabetico e restituiscilo
+function es11_1(s) {
+  return s.trim();
+  // 1. Rimuovi gli spazi all'inizio e alla fine della stringa
   // TODO: scrivi qui la tua soluzione
 }
 
-function es11_2(arr) {
-  // 2. Ordina arr in ordine numerico crescente
-  // Suggerimento: arr.sort((a, b) => a - b)
+function es11_2(email) {
+  return email.trim();
+  // 2. Pulisci l'email rimuovendo spazi iniziali e finali
   // TODO: scrivi qui la tua soluzione
 }
 
-function es11_3(arr) {
-  // 3. Ordina arr in ordine numerico decrescente
+function es11_3(s) {
+  return s.trim(array)
+  // 3. Restituisci un array con [lunghezzaPrima, lunghezzaDopo]
   // TODO: scrivi qui la tua soluzione
 }
 
