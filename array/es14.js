@@ -18,12 +18,18 @@ function es14_1(arr) {
 }
 
 function es14_2(arr) {
-  return arr.
+  return arr.findIndex(s => s.startsWith("A"));
   // 2. Trova l'indice della prima stringa che inizia con "A"
   // TODO: scrivi qui la tua soluzione
 }
 
 function es14_3(arr) {
+if (arr.includes(5)){
+  return("trovato");
+}
+else {
+  return("non trovato");
+}
   // 3. Se l'array contiene il numero 5, restituisci "trovato", altrimenti "non trovato"
   // Suggerimento: usa find() o includes()
   // TODO: scrivi qui la tua soluzione

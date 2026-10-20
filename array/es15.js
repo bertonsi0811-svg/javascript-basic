@@ -12,6 +12,10 @@
 
 function es15() {
   const lista = ["pane", "latte", "uova", "farina"];
+  lista.push("zucchero");
+  lista.unshift("olio");
+  lista.pop();
+  return lista;
   // TODO: scrivi qui la tua soluzione
 }
 

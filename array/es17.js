@@ -13,6 +13,12 @@
 
 function es17() {
   const numeri = [3, 8, 12, 5, 20, 7, 14];
+  const pari = numeri.filter(n => n % 2 === 0);
+  const doppi=  pari.map(n => n * 2);
+  return doppi;
+
+  
+
   // TODO: scrivi qui la tua soluzione
 }
 

@@ -12,6 +12,8 @@
 function es16() {
   const lista1 = ["Anna", "Bob", "Clara"];
   const lista2 = ["Davide", "Elena"];
+ return  lista1.concat(lista2);
+  
   // TODO: scrivi qui la tua soluzione
 }
 

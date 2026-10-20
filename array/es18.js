@@ -13,6 +13,9 @@
 
 function es18() {
   const parole = ["ciao", "mondo", "javascript"];
+  const MAIUSCOLO =  parole.map(n => n.toUpperCase());
+  const spazi = MAIUSCOLO.join(" ");
+  return spazi;
   // TODO: scrivi qui la tua soluzione
 }
 
