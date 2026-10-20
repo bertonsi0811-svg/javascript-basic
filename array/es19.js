@@ -12,7 +12,14 @@
 // --- SCRIVI QUI LA TUA SOLUZIONE ---
 
 function es19(voti) {
+  var somma= 0;
   
+  for (let i = 0; i < voti.length; i++) {
+    const elementi = voti[i];
+    somma+=elementi;
+  }
+  var media = somma / voti.length;
+return {somma, media};
   // TODO: scrivi qui la tua soluzione
 }
 
