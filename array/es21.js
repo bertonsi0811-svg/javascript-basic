@@ -13,6 +13,8 @@
 
 function es21() {
   const numeri = [1, 2, 2, 3, 4, 4, 5];
+  const duplicati = numeri.filter((n, i) => numeri.indexOf(n) === i);
+  return duplicati;
   // TODO: scrivi qui la tua soluzione
 }
 

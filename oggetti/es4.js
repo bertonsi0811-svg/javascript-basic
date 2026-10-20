@@ -11,16 +11,22 @@
 // --- SCRIVI QUI LA TUA SOLUZIONE ---
 
 function es4_1(obj) {
+  obj.citta = "Roma";
+  return obj;
   // 1. Aggiungi obj.citta = "Roma" e restituisci obj
   // TODO: scrivi qui la tua soluzione
 }
 
 function es4_2(obj, key, val) {
+obj[key]= val;
+return obj;
   // 2. Imposta obj[key] = val e restituisci obj
   // TODO: scrivi qui la tua soluzione
 }
 
 function es4_3(obj) {
+ obj.eta += 1;
+ return obj;
   // 3. Incrementa obj.eta di 1 e restituisci obj
   // TODO: scrivi qui la tua soluzione
 }

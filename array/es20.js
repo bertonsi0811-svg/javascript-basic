@@ -11,6 +11,8 @@
 // --- SCRIVI QUI LA TUA SOLUZIONE ---
 
 function es20(arr, elemento) {
+   return arr.indexOf(elemento);
+
   // TODO: scrivi qui la tua soluzione
 }
 

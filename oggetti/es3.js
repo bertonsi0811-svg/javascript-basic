@@ -12,16 +12,20 @@
 // --- SCRIVI QUI LA TUA SOLUZIONE ---
 
 function es3_1(obj, key) {
+  return obj[key];
   // 1. Restituisci obj[key] (usando la bracket notation)
   // TODO: scrivi qui la tua soluzione
 }
 
 function es3_2(obj) {
+  return obj["eta"];
   // 2. Restituisci obj["eta"]
   // TODO: scrivi qui la tua soluzione
 }
 
 function es3_3(obj, key, valore) {
+ obj[key] = valore;
+ return obj;
   // 3. Imposta obj[key] = valore e restituisci obj
   // TODO: scrivi qui la tua soluzione
 }

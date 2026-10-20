@@ -10,17 +10,20 @@
 // --- SCRIVI QUI LA TUA SOLUZIONE ---
 
 function es1_1(nome, eta) {
+  
   // 1. Restituisci un oggetto { nome: nome, eta: eta }
   // TODO: scrivi qui la tua soluzione
   return { nome, eta };
 }
 
 function es1_2(marca, modello, anno) {
+  return {marca, modello, anno};
   // 2. Restituisci un oggetto { marca, modello, anno }
   // TODO: scrivi qui la tua soluzione
 }
 
 function es1_3() {
+  return {};
   // 3. Restituisci un oggetto vuoto
   // TODO: scrivi qui la tua soluzione
 }

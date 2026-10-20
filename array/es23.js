@@ -11,6 +11,13 @@
 // --- SCRIVI QUI LA TUA SOLUZIONE ---
 
 function es23(numeri) {
+    var somma= 0;
+  
+  for (let i = 0; i < numeri.length; i++) {
+    const elementi = numeri[i];
+    somma+=elementi;
+  }
+  return somma;
   // TODO: scrivi qui la tua soluzione
 }
 

@@ -9,6 +9,7 @@
 // --- SCRIVI QUI LA TUA SOLUZIONE ---
 
 function es7_1(obj) {
+  
   // 1. Restituisci le chiavi di obj
   // TODO: scrivi qui la tua soluzione
 }

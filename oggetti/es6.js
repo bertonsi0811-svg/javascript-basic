@@ -10,16 +10,24 @@
 // --- SCRIVI QUI LA TUA SOLUZIONE ---
 
 function es6_1(obj, key) {
+  return key in obj;
   // 1. Restituisci true se key è una proprietà di obj
   // TODO: scrivi qui la tua soluzione
 }
 
 function es6_2(obj) {
+  return "email" in obj;
   // 2. Restituisci true se "email" è una proprietà di obj
   // TODO: scrivi qui la tua soluzione
 }
 
 function es6_3(persona) {
+  if("nome" in persona ) {
+    return persona.nome;
+  }
+  else {
+    return "N/A";
+  }
   // 3. Se "nome" è in persona restituisci persona.nome, altrimenti "N/A"
   // TODO: scrivi qui la tua soluzione
 }
