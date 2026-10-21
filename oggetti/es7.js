@@ -9,18 +9,20 @@
 // --- SCRIVI QUI LA TUA SOLUZIONE ---
 
 function es7_1(obj) {
-  
+return Object.keys(obj);
   // 1. Restituisci le chiavi di obj
   // TODO: scrivi qui la tua soluzione
 }
 
 function es7_2(obj) {
+  return Object.keys(obj).length;
   // 2. Restituisci il numero di proprietà di obj
   // Suggerimento: Object.keys(obj).length
   // TODO: scrivi qui la tua soluzione
 }
 
 function es7_3(obj) {
+  return Object.keys(obj).length > 0;
   // 3. Restituisci true se obj ha almeno una proprietà
   // TODO: scrivi qui la tua soluzione
 }

@@ -13,6 +13,7 @@
 // --- SCRIVI QUI LA TUA SOLUZIONE ---
 
 function es15(nome, eta, citta) {
+  return {nome : nome, eta : eta, citta : citta, descrizione : "Mario, 25 anni, Roma"};
   // TODO: scrivi qui la tua soluzione
 }
 

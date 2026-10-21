@@ -11,17 +11,22 @@
 // --- SCRIVI QUI LA TUA SOLUZIONE ---
 
 function es10_1(target, source) {
+  return Object.assign(target, source)
   // 1. Copia le proprietà di source in target e restituisci target
   // TODO: scrivi qui la tua soluzione
 }
 
-function es10_2(obj1, obj2) {
+function es10_2(obj1, obj2) { 
+  const unito = { ... obj1, ... obj2 };
+  return unito;
   // 2. Unisci obj1 e obj2 in un nuovo oggetto (senza modificare gli originali)
   // Suggerimento: Object.assign({}, obj1, obj2)
   // TODO: scrivi qui la tua soluzione
 }
 
 function es10_3(defaults, custom) {
+  return {... defaults, ... custom};
+
   // 3. Unisci defaults e custom: custom sovrascrive defaults
   // TODO: scrivi qui la tua soluzione
 }
